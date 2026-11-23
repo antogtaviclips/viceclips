@@ -8,40 +8,66 @@
   body { font: 17px/1.6 system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; color: #1a1a1a; background: #fff; }
   a { color: #c2185b; }
   h2 { margin-top: 28px; }
+  hr { margin: 48px 0 8px; border: 0; border-top: 1px solid #ddd; }
 </style>
 </head>
 <body>
 <h1>Règles de confidentialité</h1>
-<p>Dernière mise à jour : 19 novembre 2026</p>
+<p>Dernière mise à jour : 23 novembre 2026</p>
 
-<p>Ces règles concernent « Vice Clips Publisher », l'outil interne de Vice Clips qui publie des vidéos
-sur les chaînes YouTube de Vice Clips (@ViceClipsFR et @ViceClipsGTA).</p>
+<p>Ces règles concernent « Vice Clips Publisher », l'outil interne de Vice Clips qui publie nos vidéos
+sur nos propres chaînes YouTube (@pepitesgta6_du_jour et @gta6_best_moments_daily) et sur nos propres comptes TikTok.</p>
 
 <h2>Qui l'utilise</h2>
-<p>L'outil n'est pas proposé au public. Seul le propriétaire des chaînes Vice Clips s'y connecte, avec son propre compte Google.</p>
+<p>L'outil n'est pas proposé au public. Seul le propriétaire de Vice Clips s'y connecte, avec ses propres comptes Google et TikTok.</p>
 
-<h2>Données utilisées</h2>
-<p>L'outil demande un seul droit Google : <code>youtube.upload</code>, qui permet d'envoyer des vidéos sur la chaîne choisie
-à la connexion. Il ne lit pas les e-mails, les contacts, l'historique ni aucune autre donnée du compte.</p>
-<p>Le jeton d'accès fourni par Google est conservé uniquement sur le serveur privé du propriétaire, dans un fichier lisible par lui seul.
-Il sert uniquement à publier les vidéos de Vice Clips.</p>
+<h2>Données utilisées — YouTube</h2>
+<p>L'outil demande le droit Google <code>youtube.upload</code>, qui permet d'envoyer des vidéos sur la chaîne choisie
+à la connexion, ainsi que des droits de lecture sur nos propres chaînes (statistiques de nos vidéos).
+Il ne lit pas les e-mails, les contacts, l'historique ni aucune autre donnée du compte.</p>
+
+<h2>Données utilisées — TikTok</h2>
+<p>L'outil demande trois droits TikTok :</p>
+<ul>
+  <li><code>user.info.basic</code> : le nom et l'avatar du compte, pour vérifier que la vidéo part sur le bon compte ;</li>
+  <li><code>video.upload</code> : envoyer une vidéo en brouillon dans l'application TikTok ;</li>
+  <li><code>video.publish</code> : publier une vidéo sur le compte.</li>
+</ul>
+<p>Il ne lit ni les messages, ni les abonnés, ni aucune autre donnée du compte TikTok.</p>
+
+<h2>Conservation</h2>
+<p>Les jetons d'accès fournis par Google et TikTok sont conservés uniquement sur le serveur privé du propriétaire,
+dans des fichiers lisibles par lui seul. Ils servent uniquement à publier les vidéos de Vice Clips.</p>
 
 <h2>Partage</h2>
-<p>Aucune donnée n'est vendue, partagée ni transmise à des tiers. Aucune donnée d'autres utilisateurs de YouTube n'est collectée.</p>
+<p>Aucune donnée n'est vendue, partagée ni transmise à des tiers. Aucune donnée d'autres utilisateurs de YouTube ou de TikTok n'est collectée.</p>
 
 <h2>Retirer l'accès</h2>
-<p>L'accès peut être retiré à tout moment depuis la page
-<a href="https://myaccount.google.com/permissions">Applications tierces ayant accès à votre compte</a>.
-Le jeton conservé est alors inutilisable, et il est supprimé du serveur.</p>
+<p>L'accès peut être retiré à tout moment :</p>
+<ul>
+  <li>Google : page <a href="https://myaccount.google.com/permissions">Applications tierces ayant accès à votre compte</a> ;</li>
+  <li>TikTok : dans l'application, Paramètres et confidentialité → Sécurité et autorisations → Applications et services.</li>
+</ul>
+<p>Le jeton conservé est alors inutilisable, et il est supprimé du serveur.</p>
 
-<h2>Services YouTube et Google</h2>
+<h2>Services YouTube, Google et TikTok</h2>
 <p>Cet outil utilise les services d'API YouTube. En l'utilisant, vous acceptez les
 <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>.
-Les <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a> s'appliquent également.</p>
+Les <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a> s'appliquent également.
+Pour TikTok, les <a href="https://www.tiktok.com/legal/terms-of-service">Conditions d'utilisation</a> et la
+<a href="https://www.tiktok.com/legal/privacy-policy">Politique de confidentialité de TikTok</a> s'appliquent.</p>
 
 <h2>Contact</h2>
 <p>anto.gtaviclips@gmail.com</p>
 
-<p><a href="index.html">← Accueil</a></p>
+<hr>
+<h2>Privacy Policy (English summary)</h2>
+<p>Vice Clips Publisher is an internal tool that only posts Vice Clips' own videos to Vice Clips' own YouTube channels and TikTok accounts.
+It is not offered to the public. On TikTok it requests <code>user.info.basic</code>, <code>video.upload</code> and <code>video.publish</code>,
+used only to check the account and post our videos. Access tokens are stored only on the owner's private server and are never sold or shared.
+No data from other users is collected. Access can be revoked at any time in TikTok's or Google's settings.
+Contact: anto.gtaviclips@gmail.com</p>
+
+<p><a href="index.html">← Accueil</a> · <a href="conditions.html">Conditions d'utilisation</a></p>
 </body>
 </html>
